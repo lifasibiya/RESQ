@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="lbl">
+    <ion-item lines=none>
+      <ion-icon id="icon" name="home"></ion-icon>
+      <h2 id="lbl">YOUR LOCATION</h2>
+      
+    </ion-item>
+    <!-- <ion-row>
+      <ion-col size=2>
+        <ion-icon id="icon" name="home"></ion-icon>
+      </ion-col>
+      <ion-col size=10>
+        <h2 id="lbl">YOUR LOCATION</h2>
+      </ion-col>
+    </ion-row> -->
+  </div>
+  <div class="lbl">
+    <ion-label id="lbl">{{ curlocation }}</ion-label>
+  </div>
+  <div id="map" #map></div>
+  <div class="btn">
+    <ion-button id="btn" expand=round>{{'Help' | uppercase}}</ion-button>
+  </div>
+</ion-content>

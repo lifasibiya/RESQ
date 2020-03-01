@@ -1,5 +1,7 @@
 {
   "name": "RESQ",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
